@@ -1,0 +1,73 @@
+body{
+    background: #000;
+}
+
+button{
+    cursor: pointer;
+}
+
+.shoemage{
+    border-bottom: 5px solid white;
+}
+
+#pink{
+    color: pink;
+}
+
+#pinkBg{
+    background: pink;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid pink;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+#transparent{
+    background: none;
+    color: #fff;
+    border: 1px solid pink;
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+
+.container{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container nav ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.container nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero{
+    background: rgba(255, 192, 203, 0.1);
+    display: flex;
+    align-items: center;
+    border: 1px solid pink;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.hero h1{
+    font-size: clamp(2rem, 3rem, 4rem);
+    text-transform:capitalize;
+    white-space: nowrap;
+}
